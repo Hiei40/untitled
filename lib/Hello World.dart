@@ -5,18 +5,14 @@ class HelloWorld extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color(0xff199A8E),
-leading: Icon(Icons.menu),
-title: Text("Hello World"),
-centerTitle: true,
-        actions: [
-          Text("sf"),
-          Icon(Icons.add),
-          Icon(Icons.add),
-          Icon(Icons.add),
-        ],
+    return SafeArea(
+      child: Scaffold(
+
+          body:Column(children: [
+            Row(children: [Icon(Icons.cabin),Icon(Icons.cabin)],),
+            Row(children: [Text("Hisham"),Text("Nasser")],)
+
+          ],),
       ),
     );
   }
