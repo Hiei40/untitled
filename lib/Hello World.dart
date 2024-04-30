@@ -19,6 +19,14 @@ class HelloWorld extends StatelessWidget {
                 child: Text("Drawer"),
               ),
               InkWell(
+                onTap: () {},
+                child: Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.red,
+                ),
+              ),
+              InkWell(
                 onTap: () {
                   print("Home");
                 },
@@ -55,15 +63,182 @@ class HelloWorld extends StatelessWidget {
           ),
         ),
 
-        body: Column(
-          children: [
-            Row(
-              children: [Icon(Icons.cabin), Icon(Icons.cabin)],
+        body: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 50 ,horizontal: 50),
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                height: 50,
+                width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),     Container(color:  Colors.red,
+                  margin: EdgeInsets.only(left: 20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+                SizedBox(
+                  height: 10,
+            
+                ),
+                Container(color:  Colors.red,
+                  margin: EdgeInsets.all(20),
+            
+                  height: 50,
+                  width: double.infinity,
+                ),
+            
+              ],
             ),
-            Row(
-              children: [Text("Hisham"), Text("Nasser")],
-            )
-          ],
+          ),
         ),
       ),
     );
