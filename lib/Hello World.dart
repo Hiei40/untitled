@@ -65,180 +65,27 @@ class HelloWorld extends StatelessWidget {
 
         body: Padding(
           padding: const EdgeInsets.symmetric(vertical: 50 ,horizontal: 50),
-          child: SingleChildScrollView(
-            child: Column(
+          child: Column(children: [
+            Stack(
               children: [
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                height: 50,
-                width: double.infinity,
-                ),
-                SizedBox(
+
+                Container(color: Colors.yellow,
+                  width: double.infinity,
+                  height: 50,),
+
+                Container(child: Image.network(""),),
+
+                Container(
+                  color: Colors.black,
+                  width: double.infinity,
                   height: 10,
-            
                 ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),     Container(color:  Colors.red,
-                  margin: EdgeInsets.only(left: 20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-                SizedBox(
-                  height: 10,
-            
-                ),
-                Container(color:  Colors.red,
-                  margin: EdgeInsets.all(20),
-            
-                  height: 50,
-                  width: double.infinity,
-                ),
-            
               ],
-            ),
-          ),
+
+            )
+
+
+          ],),
         ),
       ),
     );
